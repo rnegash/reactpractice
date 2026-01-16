@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.add-todo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
