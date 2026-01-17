@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+}
